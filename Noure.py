@@ -28,8 +28,8 @@ df['AcceptedCmp'] = np.where(df['AcceptedCmp1'] == 1, 1,
                     np.where(df['AcceptedCmp5'] == 1, 5, np.nan)))))
 
 df = df.drop(columns=['AcceptedCmp1', 'AcceptedCmp2', 'AcceptedCmp3', 'AcceptedCmp4', 'AcceptedCmp5', 'Year_Birth', 'MultipleAccepted', 'Dt_Customer', 'AverageIncome'])
-file_path = '/Users/nuomiao//Desktop/csv.csv'
-df.to_csv(file_path)
+#file_path = '/Users/nuomiao//Desktop/csv.csv'
+#df.to_csv(file_path)
 
 # Plot education vs income
 education_mapping = {
